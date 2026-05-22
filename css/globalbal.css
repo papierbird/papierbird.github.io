@@ -1,0 +1,83 @@
+.paperfrm {
+    max-width: 500px !important;
+    min-width: 270px !important;
+    height: 644px;
+    background: #ffffff;
+    border: 0.25px solid rgba(112, 150, 155, 0.3);
+}
+
+
+.blanksquare {
+    height: 60px;
+    width: 60px;
+    background-color: white;
+    display: block;
+    position: absolute;
+}
+
+.bstl {
+    top: -30px;
+    left: -30px;
+}
+
+.bsbr {
+    bottom: -30px;
+    right: -30px;
+}
+
+.paperfrm img {
+    width: 35%;
+    margin-bottom: 10px;
+}
+
+.intro {
+    width: 300px;
+    font-weight: 200;
+    opacity: 0.5;
+}
+
+.intro-vline {
+    display: block;
+    border-right: 0.25px solid rgba(112, 150, 155, 0.3);
+    height: 15%;
+    margin: 8% 0;
+}
+
+.btn-portfo {
+    width: 220px;
+    height: 29px;
+    background: rgba(112, 150, 155, 0.1);
+    color: rgba(112, 150, 155, 0.6);
+    font-weight: 300;
+}
+
+a.btn-portfo:hover {
+    color: white;
+    background: rgba(112, 150, 155, 0.3);
+}
+
+@media screen and (max-width: 576px) {
+    .paperfrm {
+        max-width: 295px !important;
+        height: 400px !important;
+    }
+
+    .paperfrm img {
+        width: 40%;
+        margin-bottom: 5px;
+    }
+
+    .intro,
+    .btn-portfo {
+        font-size: 0.9em !important;
+    }
+
+    .btn-portfo {
+        width: 200px;
+
+        .intro-vline {
+            height: 8%;
+            margin: 4% 0;
+        }
+
+    }
